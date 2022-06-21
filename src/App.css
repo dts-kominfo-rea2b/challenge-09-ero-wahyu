@@ -2,3 +2,41 @@
   text-align: center;
   display: flex;
 }
+
+body {
+  background: rgb(51, 255, 169);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hr-header {
+  border-top: 5px dotted #009C93;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: #009C93;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  border-radius: 10%;
+}
+
+.center {
+  margin: 60px;
+}
